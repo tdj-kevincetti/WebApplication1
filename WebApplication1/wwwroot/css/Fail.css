@@ -1,0 +1,11 @@
+﻿button {
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 40%;
+    background: #A97249;
+    border-radius: 50px;
+}
+fail{
+    text-align:center;
+}

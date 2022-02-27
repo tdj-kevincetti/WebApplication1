@@ -1,0 +1,37 @@
+﻿@model WebApplication1.Models.Staff
+    
+<html>
+    <head>
+        <link rel="stylesheet" href="~/css/Login.css" type="text/css" />
+        <meta charset="utf-8" />
+        <title>Staff Login</title>
+    </head>
+    <body>
+        <div class="hed">
+            <div class="lang">
+                <p>ภาษาไทย &#47; <a href="">English</a> </p> 
+            </div>
+            <div class="coffee">
+                <img src="~/img/mug_coffee_PNG16855 2.png" alt="coffee"/>
+                <br />
+                <p>Coffee Shop</p>
+            </div>
+            <h1>พนักงาน</h1>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="loginhead">
+            <h3>เข้าสู่ระบบ</h3>
+        </div>
+        <form asp-action="ProcessLogin" class="lfield">
+            <input asp-for="Username" class="form-control" type="text" placeholder="ชื่อผู้ใช้"/>
+            <br /><br /><br />
+            <span asp-validation-for="Username" class="text-danger"></span>
+            <input asp-for="Password" type="password" id="password" placeholder="รหัสผ่าน" />
+            <br /><br /><br />
+            <span asp-validation-for="Password" class="text-danger"></span>
+            <input type="submit" value="เข้าสู่ระบบ"/>
+        </form>
+        
+
+    </body>
+</html>

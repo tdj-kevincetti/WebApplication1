@@ -1,0 +1,56 @@
+﻿body{
+    margin: 0;
+}
+.lang{
+    text-align: right;
+    top: 2%;
+    margin-right: 2%;
+}
+.hed {
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    background: #A97249;
+    border-bottom-left-radius: 77px;
+}
+
+input[type=text], input[type=password] {
+    position: absolute;
+    width: 60%;
+    height: 5%;
+    left: 20%;
+    background: #C4C4C4;
+    border:hidden;
+    border-radius: 50px;
+}
+
+input[type=submit] {
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    left: 40%;
+    background: #A97249;
+    border:hidden;
+    border-radius: 50px;
+}
+h1, h3 {
+    text-align: center;
+    
+}
+h1 {
+    margin-top: -5%;
+}
+.field{
+    text-align: center;
+}
+label {
+    margin-top: 20px;
+    text-align: center;
+}
+img{
+    margin-left: 5%;
+    height: 75px;
+}
+p{
+    margin-left:5%;
+}
